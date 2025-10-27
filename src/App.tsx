@@ -16,6 +16,10 @@ import Project14 from './assets/images/project-14.jpeg';
 import Project15 from './assets/images/project-15.jpeg';
 import Project16 from './assets/images/project-16.jpeg';
 import Project17 from './assets/images/project-17.jpeg';
+import Project18 from './assets/images/project-18.jpeg';
+import Project19 from './assets/images/project-19.jpeg';
+import Project20 from './assets/images/project-20.jpeg';
+import Project21 from './assets/images/project-21.jpeg';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 function App() {
@@ -37,6 +41,10 @@ function App() {
     Project15,
     Project16,
     Project17,
+    Project18,
+    Project19,
+    Project20,
+    Project21,
   ] as const;
 
   const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(
